@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+    <div class="text-center">
+        <h2>用博客开启你的生活之旅！！</h2>
+        <h2>欢迎登录和注册！！</h2>
+        {% load staticfiles %}
+        <img src="{% static 'images/home.jpg' %}">
+    </div>
+{% endblock %}
